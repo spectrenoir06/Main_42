@@ -6,22 +6,28 @@
 /*   By: adoussau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/07/08 17:25:56 by adoussau          #+#    #+#             */
-/*   Updated: 2014/07/08 18:16:02 by adoussau         ###   ########.fr       */
+/*   Updated: 2014/07/08 22:59:02 by adoussau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
 #include <stdio.h>
+#include <math.h>
 
 int		ft_recursive_power(int nb, int pow);
 
 int		main()
 {
 	int nb;
-	int pow;
+	int power;
 	
 	for ( nb=-2; nb < 10; nb++)
-		for(pow = -2; pow < 10; pow++)
-			printf("%d^%d = %d \n", nb, pow, ft_recursive_power(nb,pow));
+	{
+		for(power = -2; power < 10; power++)
+		{
+			if (ft_recursive_power(nb, power) != pow(nb, power))
+					printf("%d^%d = %d ; pow = %d \n", nb, power, ft_recursive_power(nb,power), pow(nb,power ));
+		}
+	}	
 	return (0);
 }
