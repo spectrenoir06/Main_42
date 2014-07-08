@@ -6,7 +6,7 @@
 /*   By: adoussau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/07/08 14:00:08 by adoussau          #+#    #+#             */
-/*   Updated: 2014/07/08 15:22:17 by adoussau         ###   ########.fr       */
+/*   Updated: 2014/07/08 15:28:10 by adoussau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@ int		main()
 	int nb;
 	int pow;
 	
-	for ( nb=0; nb < 10; nb++)
-		for(pow = 0; pow < 10; pow++)
+	for ( nb=-2; nb < 10; nb++)
+		for(pow = -2; pow < 10; pow++)
 			printf("%d^%d = %d \n", nb, pow, ft_iterative_power(nb,pow));
 	return (0);
 }
