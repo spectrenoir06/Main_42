@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void    test(int *********i){
-    *********i = 42;
-}
+void    ft_ultimate_ft(int *********i);
 
 int main()
 {
@@ -20,7 +18,7 @@ int main()
 
     printf("%d\n",a);
 
-    test(j);
+    ft_ultimate_ft(j);
 
     printf("%d\n",a);
 
