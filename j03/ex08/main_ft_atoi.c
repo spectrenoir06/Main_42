@@ -6,7 +6,7 @@
 /*   By: adoussau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/07/08 11:16:44 by adoussau          #+#    #+#             */
-/*   Updated: 2014/07/08 11:53:52 by adoussau         ###   ########.fr       */
+/*   Updated: 2014/07/08 12:01:06 by adoussau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int		main()
 	{
 		sprintf(str, "%d", i);
 		if (ft_atoi(str) != atoi(str))
-			printf("Error a i=%d\n", i);
+			printf("Error a i=%d  %d != %d\n", i, ft_atoi(str), atoi(str));
 		/*else
 			printf("i=%d  str='%s' ft_atoi(%s)==atoi(%s)==%d\n", i, str, str, str,ft_atoi(str));*/
 	}

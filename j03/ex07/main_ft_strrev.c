@@ -6,7 +6,7 @@
 /*   By: aalliot <aalliot@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/07/06 18:36:02 by aalliot           #+#    #+#             */
-/*   Updated: 2014/07/08 11:08:24 by adoussau         ###   ########.fr       */
+/*   Updated: 2014/07/08 11:28:15 by adoussau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdio.h>
@@ -15,7 +15,7 @@ char	*ft_strrev(char *str);
 
 int		main(void)
 {
-	char c[] = "abcdefg";
+	char c[] = "ab";
 	
 	printf("%s\n", c);			
 	ft_strrev(c);
