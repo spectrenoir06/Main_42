@@ -16,7 +16,7 @@ char *ft_strncpy(char *dest, char *src, unsigned int n);
 
 int		main()
 {
-	char src[] = "le pate ma sauve le vie une fois au vietname";
+	char src[] = "le pate ma sauve le vie une fois au vietnam";
 	char dest[50];
 	unsigned int nb = 32;
 
