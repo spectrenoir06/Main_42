@@ -18,7 +18,7 @@ int		ft_strcmp(char *str1, char *str2);
 int		main()
 {
 	char str1[] = "salut je suis le 1er";
-	char str2[] = "salut je suis le 2er";
+	char str2[] = "salut je suis le 2eme";
 
 	printf("str1 = %s\nstr2 = %s\nft_strcmp(str1, str2)=%d\nstrcmp()=%d\n", str1, str2, ft_strcmp(str1, str2),strcmp(str1,str2));
 	return (0);
