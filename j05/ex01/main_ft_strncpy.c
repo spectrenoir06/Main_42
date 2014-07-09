@@ -6,7 +6,7 @@
 /*   By: adoussau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/07/09 14:16:14 by adoussau          #+#    #+#             */
-/*   Updated: 2014/07/09 14:27:15 by adoussau         ###   ########.fr       */
+/*   Updated: 2014/07/09 14:32:15 by aalliot          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,6 @@ int		main()
 
 	ft_strncpy(dest, src,nb );
 
-	printf("src = %s\ndest = %s\nnb = %d", src, dest, nb); 
+	printf("src = %s\ndest = %s\nnb = %d\n", src, dest, nb); 
 	return (0);
 }
