@@ -10,13 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
+
 int		ft_strlen(char *str);
 
 int		main(void)
 {
 	char *str;
 
-	str = "Salut";
-	ft_strlen(str);
+	str = "Salut, comment ca va? Mal et toi? Bah, pourquoi ca irrait bien?";
+	printf("longueur = %d\n", ft_strlen(str));
 	return (0);
 }
