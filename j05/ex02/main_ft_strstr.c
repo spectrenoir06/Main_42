@@ -16,7 +16,7 @@ char *ft_strstr(char src[], char *to_find);
 
 int		main()
 {
-	char str[] = "le pate c est toute ma vie";
+	char str[] = "le pate c\'est toute ma vie";
 	char find[] = "toute";
 	char *ret;
 
