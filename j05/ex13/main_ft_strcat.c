@@ -6,7 +6,7 @@
 /*   By: adoussau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/07/10 10:35:08 by adoussau          #+#    #+#             */
-/*   Updated: 2014/07/10 10:48:22 by adoussau         ###   ########.fr       */
+/*   Updated: 2014/07/10 11:22:56 by adoussau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@ char *ft_strcat(char *str1, char *str2);
 int		main()
 {
 	char str1[200] = "Le Moyen Age fait du pate un chef d'oeuvre,";
-	char str2[] = "\nce qui n\'est au XI eme siecle";
-	char str3[] = "\nqu\'un simple hache de viandes epicees.";
+	char str2[] = " ce qui n\'est au XI eme siecle";
+	char str3[] = " qu\'un simple hache de viandes epicees.";
 
 	printf("str1 = %s\n", str1);
 
