@@ -18,11 +18,12 @@ int		main()
 	char str1[] = "pate";
 	char str2[] = "42";
 	char str3[] = "Pate en croute de 42";
-	char str4[] = "";
-
-	printf("ft_str_is_alpha(\"%s\") = %d\n",str1,ft_str_is_lowercase(str1));
-	printf("ft_str_is_alpha(\"%s\") = %d\n",str2,ft_str_is_lowercase(str2));
-	printf("ft_str_is_alpha(\"%s\") = %d\n",str3,ft_str_is_lowercase(str3));
-	printf("ft_str_is_alpha(\"%s\") = %d\n",str4,ft_str_is_lowercase(str4));
+	char str4[] = "PATE";
+	char str5[] = "";
+	printf("ft_str_is_lowercase(\"%s\") = %d\n",str1,ft_str_is_lowercase(str1));
+	printf("ft_str_is_lowercase(\"%s\") = %d\n",str2,ft_str_is_lowercase(str2));
+	printf("ft_str_is_lowercase(\"%s\") = %d\n",str3,ft_str_is_lowercase(str3));
+	printf("ft_str_is_lowercase(\"%s\") = %d\n",str4,ft_str_is_lowercase(str4));
+	printf("ft_str_is_lowercase(\"%s\") = %d\n",str5,ft_str_is_lowercase(str5));
 	return (0);
 }
