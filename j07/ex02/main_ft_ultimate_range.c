@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main_ft_range.c                                    :+:      :+:    :+:   */
+/*   main_ft_ltimate_range.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: adoussau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/07/13 10:43:52 by adoussau          #+#    #+#             */
-/*   Updated: 2014/07/13 14:05:22 by adoussau         ###   ########.fr       */
+/*   Updated: 2014/07/13 23:35:35 by adoussau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
-int		*ft_range(int min, int max);
+int		ft_ultimate_range(int **range, int min, int max);
 
 int		main()
 {
@@ -20,9 +20,11 @@ int		main()
 	int		max = 10;
 	int		*tab1;
 	int		i;
+	int		j;
 
-	tab1 = ft_range(min, max);
+	j = ft_ultimate_range(&tab1, min, max);
 	for (i = min; i < max; i++)
 		printf(" %d,",tab1[i]);
+	printf(" nb = %d ",j);
 	return (0);
 }
