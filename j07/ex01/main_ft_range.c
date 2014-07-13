@@ -1,25 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main_strcmp.c                                      :+:      :+:    :+:   */
+/*   main_ft_range.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: adoussau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2014/07/09 17:23:18 by adoussau          #+#    #+#             */
-/*   Updated: 2014/07/10 23:13:29 by adoussau         ###   ########.fr       */
+/*   Created: 2014/07/13 10:43:52 by adoussau          #+#    #+#             */
+/*   Updated: 2014/07/13 11:22:28 by adoussau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
-#include <string.h>
 
-int		ft_strncmp(char *str1, char *str2, unsigned int n);
+int		*ft_range(int min, int max);
 
 int		main()
 {
-	char str1[] = "salut";
-	char str2[] = "saluz";
+	int		min = 0;
+	int		max = 5;
+	int		*tab1;
+	int		i;
 
-	printf("str1 = %s\nstr2 = %s\nft_strncmp(str1, str2)=%d\nstrncmp()=%d\n", str1, str2, ft_strncmp(str1, str2, 5),strncmp(str1,str2, 5));
+	tab1 = ft_range(min, max);
+	for (i = min; i < max; i++)
+		printf(" %d,",tab1[i]);
 	return (0);
 }
