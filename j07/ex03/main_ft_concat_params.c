@@ -1,28 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main_ft_range.c                                    :+:      :+:    :+:   */
+/*   main_ft_concat_params.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: adoussau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2014/07/13 10:43:52 by adoussau          #+#    #+#             */
-/*   Updated: 2014/07/13 23:38:08 by adoussau         ###   ########.fr       */
+/*   Created: 2014/07/14 00:26:38 by adoussau          #+#    #+#             */
+/*   Updated: 2014/07/14 00:49:16 by adoussau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
-int		*ft_range(int min, int max);
+char	*ft_concat_params(int argc, char **argv);
 
-int		main()
+int		main(int argc, char **argv)
 {
-	int		min = 5;
-	int		max = 10;
-	int		*tab1;
-	int		i;
-
-	tab1 = ft_range(min, max);
-	for (i = 0; i < (max - min); i++)
-		printf(" %d,",tab1[i]);
+	printf("%s",ft_concat_params(argc, argv));
 	return (0);
 }
