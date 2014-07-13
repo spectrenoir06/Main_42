@@ -15,7 +15,7 @@ char	*ft_strdup(char *c);
 
 int		main()
 {
-	char str1[30] = "salut";
+	char str1[30] = "cc c kevin";
 	char *str2;
 
 	str2 = ft_strdup(str1);
