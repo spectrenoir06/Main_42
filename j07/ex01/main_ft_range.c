@@ -6,7 +6,7 @@
 /*   By: adoussau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/07/13 10:43:52 by adoussau          #+#    #+#             */
-/*   Updated: 2014/07/13 11:22:28 by adoussau         ###   ########.fr       */
+/*   Updated: 2014/07/13 22:05:56 by alaulom          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int		main()
 	int		i;
 
 	tab1 = ft_range(min, max);
-	for (i = min; i < max; i++)
+	for (i = 0; i < (max - min); i++)
 		printf(" %d,",tab1[i]);
 	return (0);
 }
