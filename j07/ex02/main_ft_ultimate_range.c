@@ -23,7 +23,7 @@ int		main()
 	int		j;
 
 	j = ft_ultimate_range(&tab1, min, max);
-	for (i = min; i < max; i++)
+	for (i = 0; i < (max - min); i++)
 		printf(" %d,",tab1[i]);
 	printf(" nb = %d ",j);
 	return (0);
