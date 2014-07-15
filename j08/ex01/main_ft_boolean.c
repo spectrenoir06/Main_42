@@ -6,7 +6,7 @@
 /*   By: alaulom <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/07/14 18:09:25 by alaulom           #+#    #+#             */
-/*   Updated: 2014/07/14 18:42:16 by alaulom          ###   ########.fr       */
+/*   Updated: 2014/07/15 15:20:06 by alaulom          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ int		main(int argc, char **argv)
 {
 	(void)argv;
 	if (ft_is_even(argc - 1) == TRUE)
-		ft_putsr(EVEN_MSG);
+		ft_putstr(EVEN_MSG);
 	else
 		ft_putstr(ODD_MSG);
 	return (SUCCESS);
